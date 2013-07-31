@@ -53,7 +53,7 @@ class Index extends MyActivity {
     if(!contains("nnurl")){
       put("nnurl","http://data.3g.sina.com.cn/api/combine.php?version=5&wm=b207&cid=45&group=date&page=")
     }
-    newsUrl = get("nnurl")
+    newsUrl = "http://data.3g.sina.com.cn/api/combine.php?version=5&wm=b207&cid=45&group=date&page="
     listView.setOnRefreshListener(new OnRefreshListener() {
       override def onRefresh() {
           adapter.refresh
