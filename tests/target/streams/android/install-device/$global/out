@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0m/Users/aaron/apps/Android/android-sdk-macosx/platform-tools/adb -d install -r  /Users/aaron/Dev/sbt_ll/fxthomas/honeyt/tests/target/honeyttests-0.1.apk[0m
+[0m[[0minfo[0m] [0m	pkg: /data/local/tmp/honeyttests-0.1.apk[0m
+[0m[[0minfo[0m] [0mSuccess[0m
+[0m[[0minfo[0m] [0m445 KB/s (4585 bytes in 0.010s)[0m

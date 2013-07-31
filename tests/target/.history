@@ -1,0 +1,20 @@
+project
+projest main
+projest tests
+project tests
+project main
+android:test-device
+last tests/android:test-device
+android:test-device
+last tests/android:test-device
+android:package-debug
+android:install-device
+android:test-device
+last tests/android:test-device
+android:test-device
+project main
+android:test-device
+reload
+update
+eclipse
+exit

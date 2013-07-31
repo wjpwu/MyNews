@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="animStyle" parent="@android:style/Widget.ProgressBar.Large">
+    <item name="android:indeterminateDrawable">@anim/loading_gif</item>
+    </style>
+    
+    <style name="NoWindowContentOverlayTheme" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="ActivityAnimationTheme" parent="@style/NoWindowContentOverlayTheme">
+        <item name="android:windowAnimationStyle">@style/Animation.Activity</item>
+    </style>
+    <style name="UpActivityAnimationTheme" parent="@style/NoWindowContentOverlayTheme">
+        <item name="android:windowAnimationStyle">@style/Animation.UpActivity</item>
+    </style>
+    <style name="PicAnimationTheme" parent="@style/NoWindowContentOverlayTheme">
+        <item name="android:windowAnimationStyle">@style/Animation.PicActivity</item>
+    </style>
+    <style name="NoWindowAnimationTheme" parent="@style/NoWindowContentOverlayTheme">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="Animation" />
+    <style name="Animation.Activity" parent="@style/Animation">
+        <item name="android:windowEnterAnimation">@anim/activity_enter</item>
+        <item name="android:windowExitAnimation">@anim/activity_exit</item>
+    </style>
+    <style name="Animation.UpActivity" parent="@style/Animation">
+        <item name="android:windowEnterAnimation">@anim/drop_up_menu</item>
+        <item name="android:windowExitAnimation">@anim/drop_down_menu</item>
+    </style>
+    <style name="Animation.PicActivity" parent="@style/Animation">
+        <item name="android:windowEnterAnimation">@anim/activity_pic_enter</item>
+        <item name="android:windowExitAnimation">@anim/activity_pic_exit</item>
+    </style>
+    <style name="WeiboInput">
+        <item name="android:gravity">top</item>
+        <item name="android:background">@drawable/input_bg</item>
+    </style>
+    <style name="main_tab_bottom">
+        <item name="android:textSize">@dimen/bottom_tab_font_size</item>
+        <item name="android:textColor">@color/textcolor_for_tabs</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/home_item_bg</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="top_channel_radio">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/watermark_pic</item>
+        <item name="android:layout_width">58.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+    </style>
+    <style name="CustomOptionMenu" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/opt_menu_bg</item>
+        <item name="android:windowAnimationStyle">@style/OptionMenuAnimation</item>
+    </style>
+    <style name="OptionMenuAnimation">
+        <item name="android:windowEnterAnimation">@anim/opt_menu_show</item>
+        <item name="android:windowExitAnimation">@anim/opt_menu_hide</item>
+    </style>
+    <style name="Transparent">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+    <style name="Animation.WhatIsNewActivity" parent="@style/Animation">
+        <item name="android:windowEnterAnimation">@anim/activity_enter</item>
+        <item name="android:windowExitAnimation">@anim/activity_enter</item>
+    </style>
+    <style name="ActivityAnimationTheme.WhatIsNew" parent="@style/NoWindowContentOverlayTheme">
+        <item name="android:windowAnimationStyle">@style/Animation.WhatIsNewActivity</item>
+    </style>
+    <style name="shadow_text_style">
+        <item name="android:shadowColor">@color/white</item>
+        <item name="android:shadowDx">2.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="bottom_toolbar_style">
+        <item name="android:layout_height">@dimen/bottom_toolbar_height</item>
+        <item name="android:layout_marginLeft">1.0dip</item>
+        <item name="android:layout_marginRight">1.0dip</item>
+        <item name="android:layout_marginBottom">0.8000001dip</item>
+    </style>
+    <style name="bottom_toolbar_iv_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="ContentOverlay" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Dialog_Fullscreen">
+        <item name="android:windowEnterAnimation">@anim/activity_enter</item>
+        <item name="android:windowExitAnimation">@anim/guide_exit</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Dialog_Fullscreen2">
+        <item name="android:windowEnterAnimation">@anim/activity_enter</item>
+        <item name="android:windowExitAnimation">@anim/activity_exit</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="push_setting_checkbox_style" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">0.0dip</item>
+        <item name="android:button">@drawable/checkbox_selector</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="IndicatorAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/fade_in_fast</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_fast</item>
+    </style>
+    <style name="Theme.PageIndicatorDefaults" parent="@android:style/Theme">
+        <item name="vpiCirclePageIndicatorStyle">@style/Widget.CirclePageIndicator</item>
+    </style>
+    <style name="Widget" />
+    <style name="Widget.CirclePageIndicator" parent="@style/Widget">
+        <item name="centered">@bool/default_circle_indicator_centered</item>
+        <item name="fillColor">@color/default_circle_indicator_fill_color</item>
+        <item name="orientation">@integer/default_circle_indicator_orientation</item>
+        <item name="radius">@dimen/default_circle_indicator_radius</item>
+        <item name="snap">@bool/default_circle_indicator_snap</item>
+        <item name="strokeColor">@color/default_circle_indicator_stroke_color</item>
+        <item name="strokeWidth">@dimen/default_circle_indicator_stroke_width</item>
+    </style>
+    <style name="weibosdk_ContentOverlay" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/weibosdk_transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

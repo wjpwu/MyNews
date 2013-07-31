@@ -1,0 +1,2 @@
+[0m[[0mdebug[0m] [0m/Users/aaron/apps/Android/android-sdk-macosx/platform-tools/adb -d shell am start -a android.intent.action.MAIN -n com.honey.cc/.Index[0m
+[0m[[0minfo[0m] [0mStarting: Intent { act=android.intent.action.MAIN cmp=com.honey.cc/.Index }[0m

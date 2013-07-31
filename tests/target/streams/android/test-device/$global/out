@@ -1,0 +1,12 @@
+[0m[[0mdebug[0m] [0m/Users/aaron/apps/Android/android-sdk-macosx/platform-tools/adb -d shell am instrument -r -w com.honey.cc.tests/android.test.InstrumentationTestRunner[0m
+[0m[[0minfo[0m] [0mtesting com.honey.cc.tests (3 tests)[0m
+[0m[[0mdebug[0m] [0mtestStarted: com.honey.cc.tests.ActivityTests#testHelloWorldIsShown[0m
+[0m[[0minfo[0m] [0m[32mpassed[0m: com.honey.cc.tests.ActivityTests#testHelloWorldIsShown[0m
+[0m[[0mdebug[0m] [0m{}[0m
+[0m[[0mdebug[0m] [0mtestStarted: com.honey.cc.tests.AndroidTests#testAndroidTestCaseSetupProperly[0m
+[0m[[0mdebug[0m] [0m[32mpassed[0m: com.honey.cc.tests.AndroidTests#testAndroidTestCaseSetupProperly[0m
+[0m[[0mdebug[0m] [0m{}[0m
+[0m[[0mdebug[0m] [0mtestStarted: com.honey.cc.tests.AndroidTests#testPackageIsCorrect[0m
+[0m[[0minfo[0m] [0m[32mpassed[0m: com.honey.cc.tests.AndroidTests#testPackageIsCorrect[0m
+[0m[[0mdebug[0m] [0m{}[0m
+[0m[[32msuccess[0m] [0mAll tests passed[0m

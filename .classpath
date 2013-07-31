@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/scala"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry excluding="**/R.java" kind="src" path="target/scala-2.10/src_managed/main/java"/>
+	<classpathentry excluding="**/R.java" kind="src" path="target/scala-2.10/src_managed/main/scala"/>
+	<classpathentry kind="src" path="src/test/scala"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="lib" path="/Users/aaron/apps/Android/android-sdk-macosx/platforms/android-17/android.jar"/>
+	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/Aaron/.ivy2/cache/org.scaloid/scaloid_2.10/jars/scaloid_2.10-2.1-8.jar"/>
+	<classpathentry kind="lib" path="/Users/Aaron/.ivy2/cache/com.google.android/support-v4/jars/support-v4-r7.jar"/>
+	<classpathentry kind="lib" path="/Users/Aaron/.ivy2/cache/org.scalatest/scalatest_2.10/jars/scalatest_2.10-1.9.1.jar" sourcepath="/Users/Aaron/.m2/repository/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/Aaron/.ivy2/cache/org.scala-lang/scala-actors/jars/scala-actors-2.10.0.jar"/>
+	<classpathentry kind="lib" path="/Users/Aaron/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

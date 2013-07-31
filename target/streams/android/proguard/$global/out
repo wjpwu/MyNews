@@ -1,0 +1,30 @@
+[0m[[0mdebug[0m] [0mexecuting proguard: -injars[0m
+[0m[[0mdebug[0m] [0m"/Users/aaron/Dev/sbt_ll/fxthomas/honeyt/target/scala-2.10/classes":"/Users/Aaron/.sbt/boot/scala-2.10.1/lib/scala-library.jar"(!META-INF/MANIFEST.MF,!**/R.class,!**/R$*.class,!**/TR.class,!**/TR$.class,!**/library.properties):"/Users/Aaron/.ivy2/local/org.scaloid/scaloid_2.10/2.2-8/jars/scaloid_2.10.jar"(!META-INF/MANIFEST.MF,!**/R.class,!**/R$*.class,!**/TR.class,!**/TR$.class,!**/library.properties):"/Users/Aaron/.ivy2/cache/com.google.android/support-v4/jars/support-v4-r7.jar"(!META-INF/MANIFEST.MF,!**/R.class,!**/R$*.class,!**/TR.class,!**/TR$.class,!**/library.properties)[0m
+[0m[[0mdebug[0m] [0m-outjars[0m
+[0m[[0mdebug[0m] [0m"/Users/aaron/Dev/sbt_ll/fxthomas/honeyt/target/classes.min.jar"[0m
+[0m[[0mdebug[0m] [0m-libraryjars[0m
+[0m[[0mdebug[0m] [0m"/Users/aaron/apps/Android/android-sdk-macosx/platforms/android-17/android.jar"[0m
+[0m[[0mdebug[0m] [0m-keep class com.honey.cc.** { *; } -keep class com.actionbarsherlock.** {*;} -keep class eu.erikw.** {*;} -verbose  -dontobfuscate  -dontoptimize  -printseeds target/keep.log  -printmapping target/obf.log  -keepparameternames  -dontskipnonpubliclibraryclasses  -dontskipnonpubliclibraryclassmembers  -keepattributes Exceptions,InnerClasses,Signature,Deprecated,SourceFile,LineNumberTable,*Annotation*,EnclosingMethod  -keepclassmembers class * { ** MODULE$; }  -keepdirectories  -keep class scala.runtime.ObjectRef -keep class scala.runtime.VolatileObjectRef -keep class scala.reflect.Manifest -keep class scala.reflect.ClassTag -keep class scala.reflect.ClassManifestDeprecatedApis* -keep class scala.collection.mutable.ArrayBuffer -keep class scala.math.Ordering -keep class org.scaloid.common.SActivity -keep class org.scaloid.common.SContext -keep class org.scaloid.common.Registerable -keep class org.scaloid.common.LoggerTag -keep class android.support.v4.app.Fragment -keep public class scala.Option -keep public class scala.PartialFunction -keep public class scala.Function0 -keep public class scala.Function1 -keep public class scala.Function2 -keep public class scala.Product -keep public class scala.Tuple2 -keep public class scala.collection.Seq -keep public class scala.collection.GenSeq -keep public class scala.collection.immutable.List -keep public class scala.collection.immutable.Map -keep public class scala.collection.SeqLike {public protected *;} -keep public class * extends android.app.Activity -keep public class * extends android.app.Application -keep public class * extends android.app.Service -keep public class * extends android.app.backup.BackupAgentHelper -keep public class * extends android.appwidget.AppWidgetProvider -keep public class * extends android.content.BroadcastReceiver -keep public class * extends android.content.ContentProvider -keep public class * extends android.preference.Preference -keep public class * extends android.view.View -keepclasseswithmembernames class * {native <methods>;} -keepclasseswithmembers class * {public <init>(android.content.Context, android.util.AttributeSet);} -keepclasseswithmembers class * {public <init>(android.content.Context, android.util.AttributeSet, int);} -keepclassmembers class * extends android.app.Activity {   public void *(android.view.View);} -keepclassmembers enum * {public static **[] values();public static ** valueOf(java.lang.String);} -keep class * implements android.os.Parcelable {  public static final android.os.Parcelable$Creator *;}[0m
+[0m[[0mdebug[0m] [0m-dontwarn[0m
+[0m[[0mdebug[0m] [0m-dontobfuscate[0m
+[0m[[0mdebug[0m] [0m-dontnote scala.Enumeration[0m
+[0m[[0mdebug[0m] [0m-dontnote org.xml.sax.EntityResolver[0m
+[0m[[0mdebug[0m] [0m-keep public class * extends android.app.Activity[0m
+[0m[[0mdebug[0m] [0m-keep public class * extends android.app.Service[0m
+[0m[[0mdebug[0m] [0m-keep public class * extends android.app.backup.BackupAgent[0m
+[0m[[0mdebug[0m] [0m-keep public class * extends android.appwidget.AppWidgetProvider[0m
+[0m[[0mdebug[0m] [0m-keep public class * extends android.content.BroadcastReceiver[0m
+[0m[[0mdebug[0m] [0m-keep public class * extends android.content.ContentProvider[0m
+[0m[[0mdebug[0m] [0m-keep public class * extends android.view.View[0m
+[0m[[0mdebug[0m] [0m-keep public class * extends android.app.Application[0m
+[0m[[0mdebug[0m] [0m-keep public class com.honey.cc.** { public protected *; }[0m
+[0m[[0mdebug[0m] [0m-keep public class * implements junit.framework.Test { public void test*(); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m                  -keepclassmembers class * implements java.io.Serializable {[0m
+[0m[[0mdebug[0m] [0m                    private static final java.io.ObjectStreamField[] serialPersistentFields;[0m
+[0m[[0mdebug[0m] [0m                    private void writeObject(java.io.ObjectOutputStream);[0m
+[0m[[0mdebug[0m] [0m                    private void readObject(java.io.ObjectInputStream);[0m
+[0m[[0mdebug[0m] [0m                    java.lang.Object writeReplace();[0m
+[0m[[0mdebug[0m] [0m                    java.lang.Object readResolve();[0m
+[0m[[0mdebug[0m] [0m                   }[0m
+[0m[[0mdebug[0m] [0m                   [0m

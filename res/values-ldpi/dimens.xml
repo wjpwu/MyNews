@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="defauleNewsListTextSize">15.0sp</dimen>
+    <dimen name="pic_height">130.0dip</dimen>
+</resources>

@@ -1,0 +1,112 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <link rel="apple-touch-icon" href="http://u1.sinaimg.cn/3g/image/upload/0/110/176/19509/64477c90.png" />
+    <title>掌中新浪</title>
+    <script language="javascript">
+        function changeLoadedImage(id, loadedUrl) {
+            var img = document.getElementById(id);
+
+            if (img) {
+                img.src = loadedUrl;
+
+                var target = document.getElementById("groupImageSign");
+                if (target) {
+                    target.style.display = "";
+                }
+            }
+        }
+        
+        function fillpic(imgId, srcString, x, y) {
+          	var img = document.getElementById(imgId);
+          	if (null != img) {
+          		img.src=srcString + "?timestamp=" + Date(); 
+          	  img.setAttribute("style", "padding:0px 0px 0px 0px;");
+          	  
+          	  if (0 != y) {
+          	  	img.setAttribute("height", y);
+          	  }
+          	  if (0 != x) {
+          	  	img.setAttribute("width", x);
+          	  }
+          	  
+          	  var target = document.getElementById("groupImageSign");
+              if (target) {
+              	target.style.display = "";
+              }
+              
+           }
+        }
+       
+       	function setRead(newsid) {
+       		var recommend = document.getElementById(newsid);
+       		if (null != recommend) {
+       			recommend.className = "visitedlink";
+       		}
+       	}
+        
+        function getHtml() {
+						window.javaEventObj.htmlContent(document.getElementById('content').innerHTML);
+        }
+    </script>
+    <style type="text/css">
+*{-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0; font-family:'Microsoft Yahei','Simsun';}
+body{background:#f6f6f6;line-height:150%;font-size:16px;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+ul,ol{list-style:none;}
+a{text-decoration:none;color:#333}
+/**
+a:hover, a:active, a:focus{color:#787878;text-decoration: none;}
+a:active{color:#787878;}
+**/
+img{ border:0;vertical-align:middle}
+.mina_article{ clear:both;overflow: hidden;*zoom:1;}
+.sina_title{clear:both;overflow: hidden;*zoom:1; margin:0 8px; padding:10px 11px 8px; border-bottom:1px solid #e3e3e3}
+h1{ font-size:18px; color:#333; line-height:160%}
+.time_mate{ font-size:12px; color:#787878; text-shadow:1px 1px 1px #fff; padding-top:3px}
+.sina_cont{ font-size:18px;clear:both;overflow: hidden;*zoom:1; border-top:1px solid #fff; padding:10px 8px; color:#2c2c2c}
+p.indentcss{ text-indent:2em; padding:4px 6px}
+.cont_imgbox{ clear:both; overflow:hidden; *zoom:1; padding:5px 0px}
+.cont_imgbox span{ display:block;font-size:16px; color:#2c2c2c;text-align:center; padding-top:6px}
+.cont_imgbox .cont{ overflow: hidden; *zoom:1;font-size:13px; color:#787878; line-height:140%; padding-left:10px}
+.img_box{ clear:both; overflow:hidden; *zoom:1; text-align:center;}
+.img_box .imglist{ display:inline-block;  position:relative;}
+.img_box .imglist img{vertical-align: middle;}
+.img_box .imglist .loading{ position:absolute; left:0; top:0; z-index:800; background:#efefef}
+.img_box .imglist .imgcont{ position:absolute; left:0; top:0; z-index:900}
+.img_box .imglist .imgplay{ position:absolute; left:0; top:0; z-index:990}
+.img_box .imglist em{ position:absolute; bottom:0; right:0; z-index:999;}
+.img_box .imglist em img{ vertical-align:bottom}
+.cont_imgbox .imgcss{ float:left; width:150px; position:relative;}
+.cont_imgbox .imgcss .loading{ position:absolute; left:0; top:0; z-index:800}
+.cont_imgbox .imgcss .imgcont{ position:absolute; left:0; top:0; z-index:900}
+
+/**********20120920 BY jinglei**********/
+h2{ color:#fff; font-size:13px; background:url(file:///android_asset/label_recommend_news_480.png) no-repeat; background-size:86px 22px; height:22px; line-height:23px; font-weight:normal; padding-left:14px; clear:both;border-bottom:1px solid #e8e8e9;}
+.text_list{ clear:both; overflow:hidden; *zoom:1; font-size:18px;}
+.text_list li{white-space:nowrap; text-overflow:ellipsis; overflow:hidden;height:48px; line-height:48px; position:relative;padding:0px 30px 0px 14px;border-bottom:1px solid #e3e3e3; border-top:1px solid #fff; background:url(file:///android_asset/recommend_news_arrow.png) no-repeat right center; background-size:35px auto}
+.text_list li a.visitedlink{color:#9e9e9e;}
+/**.text_list li a:active{color:#333}**/
+/**.text_list li a:visited{color:#9e9e9e;}**/
+
+</style>
+</head>
+<body onclick="window.javaEventObj.clickAction(3)">
+	<div class="mina_article">
+		<!--正文信息-->
+		<div class="sina_title">
+			<h1>[title]</h1>
+			<p class="time_mate">[time] [from]</p>
+		</div>
+		<!--正文内容-->
+		<div id="content" class="sina_cont">
+			[content]
+		</div>
+		[recommend]
+	</div> 
+</body>
+</html>

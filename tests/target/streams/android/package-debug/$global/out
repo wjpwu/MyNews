@@ -1,0 +1,9 @@
+[0m[[0minfo[0m] [0mPackaging /Users/aaron/Dev/sbt_ll/fxthomas/honeyt/tests/target/honeyttests-0.1.apk[0m
+[0m[[0mdebug[0m] [0mUsing keystore: /Users/Aaron/.android/debug.keystore[0m
+[0m[[0mdebug[0m] [0mPackaging honeyttests-0.1.apk[0m
+[0m[[0mdebug[0m] [0m/Users/aaron/Dev/sbt_ll/fxthomas/honeyt/tests/target/resources.apk:[0m
+[0m[[0mdebug[0m] [0m=> AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0m=> resources.arsc[0m
+[0m[[0mdebug[0m] [0m/Users/aaron/Dev/sbt_ll/fxthomas/honeyt/tests/target/classes.dex => classes.dex[0m
+[0m[[0mdebug[0m] [0m/Users/aaron/Dev/sbt_ll/fxthomas/honeyt/tests/target/classes.min.jar:[0m
+[0m[[0mdebug[0m] [0m=> library.properties[0m

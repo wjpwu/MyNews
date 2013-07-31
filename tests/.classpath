@@ -1,0 +1,16 @@
+<classpath>
+  <classpathentry path="src/main/scala" kind="src"></classpathentry>
+  <classpathentry path="src/main/java" kind="src"></classpathentry>
+  <classpathentry path="target/scala-2.10/src_managed/main/java" kind="src"></classpathentry>
+  <classpathentry path="target/scala-2.10/src_managed/main/scala" kind="src"></classpathentry>
+  <classpathentry path="src/test/scala" kind="src"></classpathentry>
+  <classpathentry path="src/test/java" kind="src"></classpathentry>
+  <classpathentry path="target/scala-2.10/src_managed/test" kind="src"></classpathentry>
+  <classpathentry path="/Users/aaron/apps/Android/android-sdk-macosx/platforms/android-17/android.jar" kind="lib"></classpathentry>
+  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"></classpathentry>
+  <classpathentry path="/Users/Aaron/.ivy2/cache/org.scaloid/scaloid_2.10/jars/scaloid_2.10-2.1-8.jar" kind="lib"></classpathentry>
+  <classpathentry exported="true" path="/HoneyT" kind="src" combineaccessrules="false"></classpathentry>
+  <classpathentry path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6" kind="con"></classpathentry>
+  <classpathentry kind="output" path="bin/classes"></classpathentry>
+  <classpathentry path="com.android.ide.eclipse.adt.LIBRARIES" kind="con"></classpathentry>
+</classpath>

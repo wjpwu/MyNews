@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textcolor_for_tabs">#ff000000</color>
+   
+    <color name="white">#ffffffff</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="black">#ff000000</color>
+    <color name="guidebg">#99000000</color>
+    <color name="discuss_bg_odd">#ffe6e6e6</color>
+    <color name="discuss_name_color">#ff72a2d5</color>
+    <color name="discuss_time_color">#ffa5a7a5</color>
+    <color name="discuss_content_color">#ff585858</color>
+    <color name="send_discuss_text">#ff000000</color>
+    <color name="discuss_item_text">#ffffffff</color>
+    <color name="input_discuss_text">#ff323232</color>
+    <color name="subject_list_title">#c0708090</color>
+    <color name="discuss_bg_color">#ffededee</color>
+    <color name="picture_list_bg_color">#ff2d2d2d</color>
+    <color name="transparent">#00000000</color>
+    <color name="model_color">#ffffffff</color>
+    <color name="news_color">#ffededee</color>
+    <color name="news_list_save_no_notify">#ffffffff</color>
+    <color name="citysetting_child_text">#ff000000</color>
+    <color name="model_color_write">#ffffffff</color>
+    <color name="city_item_background">#ffeeeeee</color>
+    <color name="city_item_text">#ff000000</color>
+    <color name="rl_pic_list">#ff2d2d2d</color>
+    <color name="iv_newslist_item_titleText">#ff282828</color>
+    <color name="iv_newslist_item_srcText">#ff666666</color>
+    <color name="city_setting_bg">#ffffffff</color>
+    <color name="news_title_text">#ff343434</color>
+    <color name="news_src_text">#ff666666</color>
+    <color name="wv_webview_body">#ff343434</color>
+    <color name="newslist_loading_text">#ff666666</color>
+    <color name="model_text_color">#ff000000</color>
+    <color name="suggest_text_color">#ff888888</color>
+    <color name="setting_background">#ffdfdfdf</color>
+    <color name="setting_text">#ff222222</color>
+    <color name="setting_text_disable">#ff8f8f8f</color>
+    <color name="setting_text_weiboname">#ff676767</color>
+    <color name="weibo_input_text">#ff000000</color>
+    <color name="weibo_text">#ff000000</color>
+    <color name="custom_text_color">#ff222222</color>
+    <color name="news_title_color">#ff000000</color>
+    <color name="recommend_title_text">#ff343434</color>
+    <color name="subject_list_bg">#fff6f6f6</color>
+    <color name="pull_update_text_color">#ff575757</color>
+    <color name="pic_item_press_color">#ff101010</color>
+    <color name="news_item_text_color">#ff222222</color>
+    <color name="news_item_text_color_read">#ff8e8e8e</color>
+    <color name="pic_content_title_color">#ffb1b1b1</color>
+    <color name="bottom_toolbar_tv_color">#ffffffff</color>
+    <color name="dialog_title_blue">#ff9cccf7</color>
+    <color name="push_setting_text_color">#ff484848</color>
+    <color name="text_num_gray">#ff333333</color>
+    <color name="already_subscribed">#ff38a40a</color>
+    <color name="not_subscribed">#ff969696</color>
+    <color name="subscribe">#ffffffff</color>
+    <color name="cancel_subscribe">#ff464646</color>
+    <color name="subscription_content_bg">#ffeaeaea</color>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <item type="color" name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</item>
+    <item type="color" name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</item>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <item type="color" name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</item>
+    <item type="color" name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</item>
+    <color name="default_circle_indicator_fill_color">#ffff0000</color>
+    <color name="default_circle_indicator_stroke_color">#ffdddddd</color>
+    <color name="weibosdk_transparent">#00000000</color>
+    <color name="weibosdk_text_num_gray">#ff333333</color>
+    <color name="weibosdk_dialog_title_blue">#ff9cccf7</color>
+</resources>
